@@ -90,7 +90,7 @@ func Sort1(x []int, first int, second int, total int, delta int, solversCount in
 		}
 	}
 	activeWG.Wait()
-	//#endregion solving first task with optimisations
+	//#endregion solving first parallel tasks group with optimisations
 
 	//#region solving all the other parallel task groups
 	{
