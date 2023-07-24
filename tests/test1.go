@@ -34,36 +34,28 @@ func checkSolution(size int) bool {
 func build(a int, b int, c int, d int) {
 	var i int = 0
 
-loop1:
-	if a > 0 {
+	for a > 0 {
 		values[i] = 0
 		a--
 		i++
-		goto loop1
 	}
 
-loop2:
-	if b > 0 {
+	for b > 0 {
 		values[i] = 1
 		b--
 		i++
-		goto loop2
 	}
 
-loop3:
-	if c > 0 {
+	for c > 0 {
 		values[i] = 0
 		c--
 		i++
-		goto loop3
 	}
 
-loop4:
-	if d > 0 {
+	for d > 0 {
 		values[i] = 1
 		d--
 		i++
-		goto loop4
 	}
 }
 
